@@ -1,0 +1,217 @@
+body {
+    text-align: center;
+    background-color: orange;
+    overflow-x: hidden;
+}
+
+.head {
+    background-color: violet;
+    background-image: url(../image/back.jpeg);
+}
+
+h1 {
+    color: white;
+    border: yellow 2px solid;
+    background-color: blue;
+}
+
+h2 {
+    color: orangered;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 5px;
+    animation: rotate infinite 4s;
+    animation-delay: 2;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(40deg);
+    }
+    100% {
+        transform: rotateY(60deg);
+    }
+    0% {
+        transform: scaleX(3);
+    }
+    100% {
+        
+    }
+}
+
+#bee {
+    border-radius: 50%;
+    width: 100px;
+    background-color: orchid;
+}
+
+#bee1 {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: 6px white solid;
+}
+
+#bee2 {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: 6px white solid;
+    margin-left: 30px;
+}
+
+#bee3 {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: 6px white solid;
+    transform: translateY(-20px);
+}
+
+.bees {
+    padding: 10px;
+    background-image: url(../images/back.jpeg);
+}
+
+#hun1 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun1:hover {
+    opacity: 0.7;
+}
+
+#hun2 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun3 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun4 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun5 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun6 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+#hun7 {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(231, 205, 164)(255, 153, 0);
+}
+
+P {
+    border: 2px solid white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.prices {
+    background-image: url(../images/price.jpeg);
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure {
+    position: relative;
+    width: 600%;
+    margin: 0;
+    background-color: blue;
+    left: 0;
+    animation: infinite 20s slider;
+}
+
+.slider figure img {
+    width: 16.66666666666%;
+    float: left;
+    height: 600px;
+    margin: 0;
+    left: 0;
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    16% {
+        left: 0%;
+    }
+    17% {
+        left: 0%;
+    }
+    33.3% {
+        left: -100%;
+    }
+    34% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    51% {
+        left: -200%;
+    }
+    67% {
+        left: -300%;
+    }
+    68% {
+        left: -300%;
+    }
+    83% {
+        left: -400%;
+    }
+    84% {
+        left: -400%;
+    }
+    100% {
+        left: -500%;
+    }
+}
+
+h3 {
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    animation: infinite 5s jack;
+}
+
+@keyframes jack {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(60deg);
+    }
+    0% {
+        transform: rotateZ(60deg);
+    }
+}
